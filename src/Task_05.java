@@ -18,7 +18,8 @@ public class Task_05 {
         Scanner inu=new Scanner(System.in);
         System.out.print("Enter the number:");
         int num=inu.nextInt();
-        for(int i = 2; i <= num/2; i++)
+        int i = 2;
+        while( i <= num/2 )
         {
             // condition for nonprime number
             if(num % i == 0)
@@ -26,6 +27,7 @@ public class Task_05 {
                 B = true;
                 break;
             }
+            i++;
         }
 
         if (!B)

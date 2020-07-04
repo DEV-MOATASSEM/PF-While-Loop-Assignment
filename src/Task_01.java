@@ -10,7 +10,7 @@
  */
 import java.util.Scanner;
 public class Task_01 {
-    public static void main(String[] args) {
+     public static void main(String[] args) {
         int num; 
         double sum=0;
         double avg=0;// I am using Double as a data type becz in avg the

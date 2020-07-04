@@ -16,9 +16,9 @@ public class Task_02 {
        
         int count_even=0; 
         int count_odd=0; 
-        
+        int n=1;
         Scanner inu=new Scanner(System.in);
-        for (int n=1;n<=10;n++){
+        while (n<=10){
             System.out.print("Enter the number:");
             num=inu.nextInt();
             if (num%2==0){
@@ -27,6 +27,7 @@ public class Task_02 {
             else {
                 count_odd++;
             }   
+            n++;
         }
         System.out.println("User enter "+count_even+" times even number.");
         System.out.println("User enter "+count_odd+" times even number.");
@@ -34,3 +35,4 @@ public class Task_02 {
     }
     
 }
+

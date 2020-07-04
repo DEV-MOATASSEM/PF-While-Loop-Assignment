@@ -5,7 +5,7 @@
  */
 
 /**
- *
+ *3
  * @author MOATASSEM SINDHU
  */
 import java.util.Scanner;
@@ -16,8 +16,10 @@ public class Task_04 {
         Scanner inu=new Scanner(System.in);
         System.out.print("Enter the number:");
         int num=inu.nextInt();
-        for (int i=num;i>=1;i--){
-            fact=fact*i;           
+        int i=num;
+        while (i>=1){
+            fact=fact*i;  
+            i--;
         }
         System.out.println("Factorial of "+num+" is="+fact);
     }
