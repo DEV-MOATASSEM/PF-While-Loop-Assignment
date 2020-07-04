@@ -30,7 +30,7 @@ public class Task_02 {
             n++;
         }
         System.out.println("User enter "+count_even+" times even number.");
-        System.out.println("User enter "+count_odd+" times even number.");
+        System.out.println("User enter "+count_odd+" times odd number.");
         
     }
     
